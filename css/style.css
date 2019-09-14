@@ -1,132 +1,122 @@
 @media only screen and (min-width: 1000px) {
 
 
-#wrapper {
+    #wrapper {
         width: 1000px;
-}
+    }
 
+    .container {
+        margin: auto;
+        padding: 0;
+        width: 1000px;
+    }
 
-.container {
-    margin: auto;
-    padding: 0;
-    width: 1000px;
+    #logo {
+        background-color: #EDEDED;
+        display: flex;
+        text-align: center;
+    }
 
-}
+    #logoimage {
+        margin: 10px 10px 10px 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
 
-#logo {
-    background-color: #EDEDED;
-    display: flex;
-    text-align: center;
+    #logoimg {
+        width: 300px;
+    }
 
-}
+    #logotext {
+        font-size: 14px;
+    }
 
-#logoimage {
-    margin: 10px 10px 10px 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-}
+    #logotext h2 {
+        margin-top: 48px;
+    }
 
-#logoimg {
-    width: 300px;
-}
+    nav {
+        background-color: #653D3D;
+        margin: 0;
+        padding: 1px;
+    }
 
-#logotext {
-    font-size: 14px;
-}
+    nav ul {
+        list-style-type: none;
+        padding-left: 5px;
+    }
 
-#logotext h2 {
-    margin-top: 48px;
-}
+    nav ul li {
+        display: inline-block;
+        color: white;
+    }
 
-nav {
-    background-color: #653D3D;
-    margin: 0;
-    padding: 1px;
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 5px 5px 5px 5px;
+        font-weight: bold;
+    }
 
-}
+    a:hover {
+        color: #000;
+    }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 5px;
-}
+    #jumbotron {
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
 
-nav ul li {
-    display: inline-block;
-    color: white;
+    h1 {
+        font-size: 50px;
+    }
 
-}
+    #blog {
+        background-color: #978484;
+        color: white;
+        padding: 1px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
 
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    font-weight: bold;
+    #blog h3 {
+        margin: 5px;
+        margin-left: 7px;
+    }
 
-}
+    .imgcontainermain {
+        margin-bottom: 150px;
+        flex-wrap: wrap;
+    }
 
-a:hover {
-    color: #000;
-}
+    #imgcont1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
 
-#jumbotron {
-    margin: 50px 0 50px 0;
-    ;
-    text-align: center;
-}
+    #imgcont2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-h1 {
-    font-size: 50px;
+    .imgcontainer {
+        width: 42%;
+        font-weight: bold;
+    }
 
-}
+    hr {
+        border: 3px solid #978484;
+    }
 
-#blog {
-    background-color: #978484;
-    color: white;
-    padding: 1px;
-    margin: 0px;
-    margin-bottom: 20px;
+    footer {
+        text-align: center;
+    }
 
-
-}
-
-#blog h3 {
-    margin: 5px;
-    margin-left: 7px;
-}
-.imgcontainermain{
-    margin-bottom: 150px;
-    flex-wrap: wrap;
-}
-
-#imgcont1 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-
-}
-
-#imgcont2 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.imgcontainer {
-    width: 42%;
-    font-weight: bold;
-    
-}
-hr{
-    border: 3px solid #978484;
-}
-
-footer{
-    text-align: center;
-}
-footer img{
-    width: 20%
-}
-    
+    footer img {
+        width: 20%
+    }
 }
