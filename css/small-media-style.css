@@ -1,0 +1,152 @@
+@media only screen and (max-width: 767px) {
+
+  
+    #wrapper {        
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+    }
+    header{
+        max-width: 350px;
+        
+    }
+    
+    
+    #logo {
+        background-color: #EDEDED;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    
+    #logoimage{
+        max-width: 320px;
+    }
+
+    #logoimg {
+       max-width: 300px;
+    }
+
+    #logotext {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+    }
+
+    #logotext h2 {
+        font-size: 25px;
+        margin-top: 14px;
+        margin-left: 20px;
+    }
+
+    nav {
+        background-color: #653D3D;
+        margin: 0;
+        padding: 1px;
+        width: 320px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 5px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        color: white;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 5px 5px 5px 5px;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
+    #jumbotron {        
+        margin: 50px 0 50px 0;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 16px;
+        margin: 0 7px 0 0;
+    }
+
+    #blog {
+        background-color: #978484;
+        color: white;
+        padding: 1px;
+        margin: 0px;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    #blog h3 {
+        margin: 5px;
+        margin-left: 7px;
+    }
+
+
+    /*main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }*/
+    
+    .imgcontainermain {
+        display: flex;
+        flex-wrap: wrap;
+        width: 320px;
+        flex-direction: column;
+        flex-flow: column;
+       
+        margin-left: 10px;
+    }
+
+ 
+    
+    .imgcontainermain p{
+        text-align: center;
+    }
+
+    hr{
+    border: 3px solid #978484;
+        width: 320px;
+}
+    
+   /* img {
+        width: 100%;
+    }*/
+
+   
+    
+    footer img {
+        width: 320px;
+    }
+    
+    .imgcontainer{
+        width: 320px;
+    }
+    
+    #imgphone{
+        width: 300px;
+    }
+    #imgscooter{
+        width: 300px;
+    }
+    #imgdevice{
+        width: 300px;
+    }
+    #imgdebit{
+        width: 300px;
+    }
+  
+
+}
